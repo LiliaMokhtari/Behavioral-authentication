@@ -4,7 +4,7 @@ from src.windowing import create_windows
 from src.features import extract_features
 
 def build_dataset(file_path):
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(file_path, encoding="latin1")
     windows = create_windows(df)
 
     X = []
