@@ -26,7 +26,7 @@ print(f"Anomaly: {anomaly}")
 
 ratio = legit / total
 
-if ratio > 0.9 :
+if ratio > 0.87 :
     print("User is LEGIT")
 else:
     print("Anomaly detected")
